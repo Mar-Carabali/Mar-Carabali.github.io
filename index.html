@@ -13,6 +13,11 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+<link rel="stylesheet" href="styles/style.css">
+
 </head>
 <body>
 
@@ -21,87 +26,162 @@
 	<!-- Header -->
 
 	<header class="header">
-			
-		<!-- Top Bar -->
-		
+		<nav class="nav container">
+		   <div class="nav__data">
+			<a href="#">
+				<div class="logo_text">FAH<span>SU</span></div>
+			</a>
+			  
+			  <div class="nav__toggle" id="nav-toggle">
+				 <i class="ri-menu-line nav__burger"></i>
+				 <i class="ri-close-line nav__close"></i>
+			  </div>
+		   </div>
 
-		<!-- Header Content -->
-		<div class="header_container">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="header_content d-flex flex-row align-items-center justify-content-start">
-							<div class="logo_container">
-								<a href="#">
-									<div class="logo_text">FAH<span>SU</span></div>
+		   <!--=============== NAV MENU ===============-->
+		   <div class="nav__menu" id="nav-menu">
+			  <ul class="nav__list">
+				 <li><a href="index.html" class="nav__link">Inicio</a></li>
+
+				 <li><a href="about.html" class="nav__link">Nosotros</a></li>
+
+				 <!--=============== DROPDOWN 1 ===============-->
+				
+				 
+				 <li class="dropdown__item">
+					<div class="nav__link">
+					   Cursos <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+					</div>
+
+					<ul class="dropdown__menu">
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							  Educacion
+						  </a>                          
+					   </li>
+
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							 Psicologia
+						  </a>
+					   </li>
+
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							 Economia
+						  </a>
+					   </li>
+
+					   <li>
+						<a href="courses.html" class="dropdown__link">
+						   Ingenieriaen sistemas
+						</a>
+					 </li>
+					 <li>
+						<a href="courses.html" class="dropdown__link">
+						    Jurisprucencia
+						</a>
+					 </li>
+					</ul>
+				 </li>
+
+				 <li class="dropdown__item">
+					<div class="nav__link">
+					   Diplomados <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+					</div>
+
+					<ul class="dropdown__menu">
+						<li>
+							<a href="courses.html" class="dropdown__link">
+							    Educación
+							</a>                          
+						 </li>
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							  Psicologia
+						  </a>                          
+					   </li>
+
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							  Economia
+						  </a>
+					   </li>
+
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							 Jurisprucencia
+						  </a>
+					   </li>
+					</ul>
+				 </li>
+
+				 <li class="dropdown__item">
+					<div class="nav__link">
+					   Programas academicos <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+					</div>
+
+					<ul class="dropdown__menu">
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							Licenciaturas
+						  </a>                          
+					   </li>
+
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							 Ingenierias
+						  </a>
+					   </li>
+
+					   <li>
+						<a href="courses.html" class="dropdown__link">
+						   Maestrias
+						</a>
+					 </li>
+					 
+
+					   <!--=============== DROPDOWN SUBMENU ===============-->
+					   <li class="dropdown__subitem">
+						  <div class="dropdown__link">
+							  Doctorados 
+						  </div>
+
+						  <ul class="dropdown__submenu">
+							 <li>
+								<a href="courses.html" class="dropdown__sublink">
+								   Administracion Empresarial
 								</a>
-							</div>
-							<nav class="main_nav_contaner ml-auto">
-								<ul class="main_nav">
-									<li class="active"><a href="index.html">Inicio</a></li>
-									<li><a href="about.html">Nosotros</a></li>
-									<li><a href="courses.html">Cursos</a></li>
-									<li><a href="blog.html">Programas academicos</a></li>
-									
-									<li><a href="contact.html">Contact</a></li>
-									<li><div class="login_button"><a href="#">Registrar o ingresar</a></div></li>
-									
-								</ul>
-								
-								
-								<!-- Hamburger -->
+							 </li>
+	 
+							 <li>
+								<a href="courses.html" class="dropdown__sublink">
+								    Educacion
+								</a>
+							 </li>
+	 
+							 <li>
+								<a href="courses.html" class="dropdown__sublink">
+								    Jurisprucencia
+								</a>
+							 </li>
+						  </ul>
+					   </li>
+					</ul>
+				 </li>
 
-								
-							</nav>
+				 <!--=============== DROPDOWN 2 ===============-->
+				 
 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- Header Search Panel -->
-		<div class="header_search_container">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="header_search_content d-flex flex-row align-items-center justify-content-end">
-							<form action="#" class="header_search_form">
-								<input type="search" class="search_input" placeholder="Search" required="required">
-								<button class="header_search_button d-flex flex-column align-items-center justify-content-center">
-									<i class="fa fa-search" aria-hidden="true"></i>
-								</button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>			
-		</div>			
-	</header>
+				 <li><a href="contact.html" class="nav__link">Contacto</a></li>
+			  </ul>
+		   </div>
+		</nav>
+	 </header>
 
 	<!-- Menu -->
 
-	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
-		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
-		<div class="search">
-			<form action="#" class="header_search_form menu_mm">
-				<input type="search" class="search_input menu_mm" placeholder="Search" required="required">
-				<button class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
-					<i class="fa fa-search menu_mm" aria-hidden="true"></i>
-				</button>
-			</form>
-		</div>
-		<nav class="menu_nav">
-			<ul class="menu_mm">
-				<li class="menu_mm"><a href="index.html">Home</a></li>
-				<li class="menu_mm"><a href="#">About</a></li>
-				<li class="menu_mm"><a href="#">Courses</a></li>
-				<li class="menu_mm"><a href="#">Blog</a></li>
-				<li class="menu_mm"><a href="#">Page</a></li>
-				<li class="menu_mm"><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-	</div>
+	
 	
 	<!-- Home -->
 
@@ -617,5 +697,7 @@
 <script src="plugins/easing/easing.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/custom.js"></script>
+<script src="js/main.js"></script>
+
 </body>
 </html>
