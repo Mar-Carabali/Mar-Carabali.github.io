@@ -14,6 +14,7 @@
 
       <!--=============== CSS ===============-->
 <link rel="stylesheet" href="styles/style.css">
+<link rel="stylesheet" href="styles/color1.css">
 </head>
 <body>
 
@@ -22,6 +23,35 @@
 	<!-- Header -->
 
 	<header class="header">
+
+		<div class="top_bar">
+			<div class="top_bar_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+								<ul class="top_bar_contact_list">
+									<li><div class="question">Tienes preguntas?</div></li>
+									<li>
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<div>+593 0998405816</div>
+									</li>
+									<li>
+										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<div>direccionacademica@fahsu.com.ec</div>
+									</li>
+								</ul>
+								
+								
+
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>				
+		</div>
+
 		<nav class="nav container">
 		   <div class="nav__data">
 			<a href="#">
@@ -209,8 +239,8 @@
 					<div class="col">
 						<div class="breadcrumbs">
 							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li>Contact</li>
+								<li><a href="index.html">Inicio</a></li>
+								<li>Contacto</li>
 							</ul>
 						</div>
 					</div>
@@ -219,78 +249,84 @@
 		</div>			
 	</div>
 
-	<!-- Contact -->
-
-	<div class="contact">
-		
-		<!-- Contact Map -->
-
-		<div class="contact_map">
-
-			<!-- Google Map -->
-			
-			<div class="map">
-				<div id="google_map" class="google_map">
-					<div class="map_container">
-						<div id="map"></div>
+	<!-- Contact Us -->
+	<section id="contact" class="contact section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 offset-lg-3 col-12">
+					<div class="section-title bg" style="text-align: center;">
+						
+						<h2>Contactate  <span>con nosotros</span></h2>
+						<p>¿Interesado en nuestros cursos? Contáctanos a través de nuestra página web para más información y asistencia personalizada.</p>
+						
 					</div>
 				</div>
 			</div>
-
-		</div>
-
-		<!-- Contact Info -->
-
-		<div class="contact_info_container">
-			<div class="container">
-				<div class="row">
-
-					<!-- Contact Form -->
-					<div class="col-lg-6">
-						<div class="contact_form">
-							<div class="contact_info_title">Contactanos</div>
-							<form action="#" class="comment_form">
-								<div>
-									<div class="form_title">Nombre</div>
-									<input type="text" class="comment_input" required="required">
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-12">
+					<div class="form-head">
+						<!-- Contact Form -->
+						<form class="form" action="mail/mail.php">
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="form-group">
+										<i class="fa fa-user"></i>
+										<input name="first-name" type="text" placeholder="Nombre">
+									</div>
 								</div>
-								<div>
-									<div class="form_title">Email</div>
-									<input type="text" class="comment_input" required="required">
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="form-group">
+										<i class="fa fa-envelope"></i>
+										<input name="last-name" type="text" placeholder="Apellido">
+									</div>
 								</div>
-								<div>
-									<div class="form_title">Mensaje</div>
-									<textarea class="comment_input comment_textarea" required="required"></textarea>
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="form-group">
+										<i class="fa fa-envelope"></i>
+										<input name="email" type="email" placeholder="Correo electronico">
+									</div>
 								</div>
-								<div>
-									<button type="submit" class="comment_button trans_200">Enviar</button>
+								
+								<div class="col-12">
+									<div class="form-group message">
+										<i class="fa fa-pencil"></i>
+										<textarea name="message" placeholder="Escribe tu mensaje"></textarea>
+									</div>
 								</div>
-							</form>
-						</div>
+								<div class="col-12">
+									<div class="form-group">
+										<div class="button">
+											<button type="submit" class="btn primary">Enviar Mensaje</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+						<!--/ End Contact Form -->
 					</div>
-
-					<!-- Contact Info -->
-					<div class="col-lg-6">
-						<div class="contact_info">
-							<div class="contact_info_title">Informacion de contacto</div>
-							<div class="contact_info_text">
-								<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a distribution of letters.</p>
-							</div>
-							<div class="contact_info_location">
-								<div class="contact_info_location_title">Guayaquil, Office</div>
-								<ul class="location_list">
-									<li>T8/480 Collins St, Melbourne VIC 3000, New York</li>
-									<li>1-234-567-89011</li>
-									<li>direcciongeneral@fahsu.com.ec</li>
-								</ul>
-							</div>
-							
+				</div>
+				<div class="col-lg-4 col-md-4 col-12">
+					<div class="contact-right">
+						<!-- Contact-Info -->
+						<div class="contact-info">
+							<div class="icon"><i class="fa fa-map"></i></div>
+							<h3>Dirección</h3>
+							<p>Guayaquil, km 14.5 Via a la Costa</p>
 						</div>
+						<!-- Contact-Info -->
+						<div class="contact-info">
+							<div class="icon"><i class="fa fa-envelope"></i></div>
+							<h3>Información de contacto</h3>
+							<p><a href="mailto:info@example.com"></a>direccionacademica@fahsu.com.ec</a></p>
+							<p><a href="mailto:info@example.com">direcciongeneral@fahsu.com.ec</a></p>
+							<p>+593 0998405816</p>
+						</div>
+						<!-- Contact-Info -->
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
+		</div>		
+	</section>
 
 
 	

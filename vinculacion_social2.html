@@ -26,61 +26,187 @@
 	<!-- Header -->
 
 	<header class="header">
-			
-		<!-- Top Bar -->
-		
 
-		<!-- Header Content -->
-		<div class="header_container">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="header_content d-flex flex-row align-items-center justify-content-start">
-							<div class="logo_container">
-								<a href="#">
-									<div class="logo_text">FAH<span>SU</span></div>
-								</a>
-							</div>
-							<nav class="main_nav_contaner ml-auto">
-								<ul class="main_nav">
-									<li class="active"><a href="index.html">Inicio</a></li>
-									<li><a href="about.html">Nosotros</a></li>
-									<li><a href="courses.html">Cursos</a></li>
-									<li><a href="blog.html">Programas academicos</a></li>
-									<li><a href="contact.html">Contact</a></li>
-									<li><div class="login_button"><a href="#">Registrar o ingresar</a></div></li>
-									
+		<div class="top_bar">
+			<div class="top_bar_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+								<ul class="top_bar_contact_list">
+									<li><div class="question">Tienes preguntas?</div></li>
+									<li>
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<div>+593 0998405816</div>
+									</li>
+									<li>
+										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<div>direccionacademica@fahsu.com.ec</div>
+									</li>
 								</ul>
 								
-								<!-- Hamburger -->
+								
 
 								
-							</nav>
-
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>				
 		</div>
 
-		<!-- Header Search Panel -->
-		<div class="header_search_container">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="header_search_content d-flex flex-row align-items-center justify-content-end">
-							<form action="#" class="header_search_form">
-								<input type="search" class="search_input" placeholder="Search" required="required">
-								<button class="header_search_button d-flex flex-column align-items-center justify-content-center">
-									<i class="fa fa-search" aria-hidden="true"></i>
-								</button>
-							</form>
-						</div>
+		<nav class="nav container">
+		   <div class="nav__data">
+			<a href="#">
+				<div class="logo_text">FAH<span>SU</span></div>
+			</a>
+			  
+			  <div class="nav__toggle" id="nav-toggle">
+				 <i class="ri-menu-line nav__burger"></i>
+				 <i class="ri-close-line nav__close"></i>
+			  </div>
+		   </div>
+
+		   <!--=============== NAV MENU ===============-->
+		   <div class="nav__menu" id="nav-menu">
+			  <ul class="nav__list">
+				 <li><a href="index.html" class="nav__link">Inicio</a></li>
+
+				 <li><a href="about.html" class="nav__link">Nosotros</a></li>
+
+				 <!--=============== DROPDOWN 1 ===============-->
+				
+				 
+				 <li class="dropdown__item">
+					<div class="nav__link">
+					   Cursos <i class="ri-arrow-down-s-line dropdown__arrow"></i>
 					</div>
-				</div>
-			</div>			
-		</div>			
-	</header>
+
+					<ul class="dropdown__menu">
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							  Educacion
+						  </a>                          
+					   </li>
+
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							 Psicologia
+						  </a>
+					   </li>
+
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							 Economia
+						  </a>
+					   </li>
+
+					   <li>
+						<a href="courses.html" class="dropdown__link">
+						   Ingenieriaen sistemas
+						</a>
+					 </li>
+					 <li>
+						<a href="courses.html" class="dropdown__link">
+						    Jurisprucencia
+						</a>
+					 </li>
+					</ul>
+				 </li>
+
+				 <li class="dropdown__item">
+					<div class="nav__link">
+					   Diplomados <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+					</div>
+
+					<ul class="dropdown__menu">
+						<li>
+							<a href="courses.html" class="dropdown__link">
+							    Educación
+							</a>                          
+						 </li>
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							  Psicologia
+						  </a>                          
+					   </li>
+
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							  Economia
+						  </a>
+					   </li>
+
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							 Jurisprucencia
+						  </a>
+					   </li>
+					</ul>
+				 </li>
+
+				 <li class="dropdown__item">
+					<div class="nav__link">
+					   Programas academicos <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+					</div>
+
+					<ul class="dropdown__menu">
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							Licenciaturas
+						  </a>                          
+					   </li>
+
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							 Ingenierias
+						  </a>
+					   </li>
+
+					   <li>
+						<a href="courses.html" class="dropdown__link">
+						   Maestrias
+						</a>
+					 </li>
+					 
+
+					   <!--=============== DROPDOWN SUBMENU ===============-->
+					   <li class="dropdown__subitem">
+						  <div class="dropdown__link">
+							  Doctorados 
+						  </div>
+
+						  <ul class="dropdown__submenu">
+							 <li>
+								<a href="courses.html" class="dropdown__sublink">
+								   Administracion Empresarial
+								</a>
+							 </li>
+	 
+							 <li>
+								<a href="courses.html" class="dropdown__sublink">
+								    Educacion
+								</a>
+							 </li>
+	 
+							 <li>
+								<a href="courses.html" class="dropdown__sublink">
+								    Jurisprucencia
+								</a>
+							 </li>
+						  </ul>
+					   </li>
+					</ul>
+				 </li>
+
+				 <!--=============== DROPDOWN 2 ===============-->
+				 
+
+				 <li><a href="contact.html" class="nav__link">Contacto</a></li>
+			  </ul>
+		   </div>
+		</nav>
+	 </header>
 
 
 	<!-- Menu -->
@@ -117,8 +243,8 @@
 						<div class="breadcrumbs">
 							<ul>
 								<li><a href="index.html">Inicio</a></li>
-								<li><a href="courses.html">Cursos</a></li>
-								<li>Cursos detallados</li>
+								<li><a href="courses.html">Vinculación</a></li>
+								<li>Grupos prioritarios</li>
 							</ul>
 						</div>
 					</div>
@@ -137,13 +263,15 @@
 				<div class="col-lg-8">
 					
 					<div class="course_container">
-						<div class="course_title">VINVULACION SOCIAL</div>
+						<div class="course_title">VINCULACIÓN CON GRUPOS PRIORITARIOS</div>
 						<div class="course_info d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+
+							
 
 							<!-- Course Info Item -->
 							<div class="course_info_item">
-								<div class="course_info_title">Teacher:</div>
-								<div class="course_info_text"><a href="#">Ab. Jonny Garcia</a></div>
+								<div class="course_info_title">Categorias:</div>
+								<div class="course_info_text"><a href="#">Vinculacion con gripos prioritarios</a></div>
 							</div>
 
 							<!-- Course Info Item -->
@@ -152,11 +280,8 @@
 								<div class="rating_r rating_r_4"><i></i><i></i><i></i><i></i><i></i></div>
 							</div>
 
-							<!-- Course Info Item -->
-							<div class="course_info_item">
-								<div class="course_info_title">Categorias:</div>
-								<div class="course_info_text"><a href="#">Vinculacion social</a></div>
-							</div>
+							
+							
 
 						</div>
 
@@ -174,7 +299,7 @@
 
 								<!-- Description -->
 								<div class="tab_panel active">
-									<div class="tab_panel_title">VINVULACION CON GRUPOS PRIORITARIOS</div>
+									<div class="tab_panel_title">VINCULACIÓN CON GRUPOS PRIORITARIOS</div>
 									<div class="tab_panel_content">
 										<div class="tab_panel_text">
 											<p>a vinculación con la sociedad o las prácticas comunitarias se refieren a la conexión activa y colaborativa entre instituciones educativas, organizaciones y la comunidad en general. Este proceso no solo busca beneficiar a la sociedad, sino también enriquecer el aprendizaje y desarrollo de los estudiantes. A través de proyectos y actividades diseñadas para abordar necesidades locales, se fomenta el compromiso cívico, se fortalecen los lazos sociales y se promueve un sentido de responsabilidad y solidaridad. La vinculación con la sociedad no solo impacta positivamente en el entorno, sino que también transforma a quienes participan, generando una experiencia enriquecedora y significativa que trasciende el aula hacia el mundo real.</p>
@@ -247,7 +372,7 @@
 								<!-- Curriculum -->
 								<div class="tab_panel tab_panel_2">
 									<div class="tab_panel_content">
-										<div class="tab_panel_title">Software Training</div>
+										<div class="tab_panel_title">Que aportara</div>
 										<div class="tab_panel_content">
 											<div class="tab_panel_text">
 												<p>Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
@@ -281,56 +406,10 @@
 														</li>
 													</ul>
 												</li>
-												<li class="has_children">
-													<div class="dropdown_item">
-														<div class="dropdown_item_title"><span>Lecture 2:</span> Lorem Ipsn gravida nibh vel velit auctor aliquet.</div>
-														<div class="dropdown_item_text">
-															<p>Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
-														</div>
-													</div>
-													<ul>
-														<li>
-															<div class="dropdown_item">
-																<div class="dropdown_item_title"><span>Lecture 2.1:</span> Lorem Ipsn gravida nibh vel velit auctor aliquet.</div>
-																<div class="dropdown_item_text">
-																	<p>Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
-																</div>
-															</div>
-														</li>
-														<li>
-															<div class="dropdown_item">
-																<div class="dropdown_item_title"><span>Lecture 2.2:</span> Lorem Ipsn gravida nibh vel velit auctor aliquet.</div>
-																<div class="dropdown_item_text">
-																	<p>Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
-																</div>
-															</div>
-														</li>
-													</ul>
-												</li>
-												<li>
-													<div class="dropdown_item">
-														<div class="dropdown_item_title"><span>Lecture 3:</span> Lorem Ipsn gravida nibh vel velit auctor aliquet.</div>
-														<div class="dropdown_item_text">
-															<p>Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="dropdown_item">
-														<div class="dropdown_item_title"><span>Lecture 4:</span> Lorem Ipsn gravida nibh vel velit auctor aliquet.</div>
-														<div class="dropdown_item_text">
-															<p>Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="dropdown_item">
-														<div class="dropdown_item_title"><span>Lecture 5:</span> Lorem Ipsn gravida nibh vel velit auctor aliquet.</div>
-														<div class="dropdown_item_text">
-															<p>Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
-														</div>
-													</div>
-												</li>
+												
+												
+												
+												
 											</ul>
 										</div>
 									</div>
@@ -347,82 +426,9 @@
 				<div class="col-lg-4">
 					<div class="sidebar">
 
-						<!-- Feature -->
-						<div class="sidebar_section">
-							<div class="sidebar_section_title">Course Feature</div>
-							<div class="sidebar_feature">
-								<div class="course_price">$180</div>
+						
 
-								<!-- Features -->
-								<div class="feature_list">
-
-									<!-- Feature -->
-									<div class="feature d-flex flex-row align-items-center justify-content-start">
-										<div class="feature_title"><i class="fa fa-clock-o" aria-hidden="true"></i><span>Duration:</span></div>
-										<div class="feature_text ml-auto">4 horas</div>
-									</div>
-
-									<!-- Feature -->
-									<div class="feature d-flex flex-row align-items-center justify-content-start">
-										<div class="feature_title"><i class="fa fa-file-text-o" aria-hidden="true"></i><span>Lecturas:</span></div>
-										<div class="feature_text ml-auto">10</div>
-									</div>
-
-									<!-- Feature -->
-									<div class="feature d-flex flex-row align-items-center justify-content-start">
-										<div class="feature_title"><i class="fa fa-question-circle-o" aria-hidden="true"></i><span>Preguntas:</span></div>
-										<div class="feature_text ml-auto">6</div>
-									</div>
-
-									<!-- Feature -->
-									<div class="feature d-flex flex-row align-items-center justify-content-start">
-										<div class="feature_title"><i class="fa fa-list-alt" aria-hidden="true"></i><span>Evaluaciones:</span></div>
-										<div class="feature_text ml-auto">Yes</div>
-									</div>
-
-									<!-- Feature -->
-									<div class="feature d-flex flex-row align-items-center justify-content-start">
-										<div class="feature_title"><i class="fa fa-users" aria-hidden="true"></i><span>Alumnos:</span></div>
-										<div class="feature_text ml-auto">35</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
-
-						<!-- Feature -->
-						<div class="sidebar_section">
-							<div class="sidebar_section_title">Profesor</div>
-							<div class="sidebar_teacher">
-								<div class="teacher_title_container d-flex flex-row align-items-center justify-content-start">
-									<div class="teacher_image"><img src="images/ceo_1.jpg" alt=""></div>
-									<div class="teacher_title">
-										<div class="teacher_name"><a href="#">Ab. Jonny Garcia</a></div>
-										<div class="teacher_position">Marketing & Management</div>
-									</div>
-								</div>
-								<div class="teacher_meta_container">
-									<!-- Teacher Rating -->
-									<div class="teacher_meta d-flex flex-row align-items-center justify-content-start">
-										<div class="teacher_meta_title">Average Rating:</div>
-										<div class="teacher_meta_text ml-auto"><span>4.7</span><i class="fa fa-star" aria-hidden="true"></i></div>
-									</div>
-									<!-- Teacher Review -->
-									<div class="teacher_meta d-flex flex-row align-items-center justify-content-start">
-										<div class="teacher_meta_title">Review:</div>
-										<div class="teacher_meta_text ml-auto"><span>12k</span><i class="fa fa-comment" aria-hidden="true"></i></div>
-									</div>
-									<!-- Teacher Quizzes -->
-									<div class="teacher_meta d-flex flex-row align-items-center justify-content-start">
-										<div class="teacher_meta_title">Quizzes:</div>
-										<div class="teacher_meta_text ml-auto"><span>600</span><i class="fa fa-user" aria-hidden="true"></i></div>
-									</div>
-								</div>
-								<div class="teacher_info">
-									<p>Hi! I am Masion, I’m a marketing & management  eros pulvinar velit laoreet, sit amet egestas erat dignissim. Sed quis rutrum tellus, sit amet viverra felis. Cras sagittis sem sit amet urna feugiat rutrum nam nulla ipsum.</p>
-								</div>
-							</div>
-						</div>
+						
 
 						<!-- Latest Course -->
 						<div class="sidebar_section">
@@ -431,27 +437,27 @@
 
 								<!-- Latest Course -->
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="images/latest_1.jpg" alt=""></div></div>
+									<div class="latest_image"><div><img src="images/cur_2.jpg" alt=""></div></div>
 									<div class="latest_content">
-										<div class="latest_title"><a href="course.html">How to Design a Logo a Beginners Course</a></div>
+										<div class="latest_title"><a href="">Investigación de accidentes laborales</a></div>
 										<div class="latest_price">Free</div>
 									</div>
 								</div>
 
 								<!-- Latest Course -->
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="images/latest_2.jpg" alt=""></div></div>
+									<div class="latest_image"><div><img src="images/cur_4.jpg" alt=""></div></div>
 									<div class="latest_content">
-										<div class="latest_title"><a href="course.html">Photography for Beginners Masterclass</a></div>
+										<div class="latest_title"><a href="">Gestion de formación de formadores en armas</a></div>
 										<div class="latest_price">$170</div>
 									</div>
 								</div>
 
 								<!-- Latest Course -->
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="images/latest_3.jpg" alt=""></div></div>
+									<div class="latest_image"><div><img src="images/cur_3.jpg" alt=""></div></div>
 									<div class="latest_content">
-										<div class="latest_title"><a href="course.html">The Secrets of Body Language</a></div>
+										<div class="latest_title"><a href="">Investigacion de accidentes de transito</a></div>
 										<div class="latest_price">$220</div>
 									</div>
 								</div>
@@ -539,18 +545,7 @@
 								
 							</div>
 
-							<div class="col-lg-3 footer_col clearfix">
-					
-								<!-- Footer links -->
-								<div class="footer_section footer_mobile">
-									<div class="footer_title">Mobile</div>
-									<div class="footer_mobile_content">
-										<div class="footer_image"><a href="#"><img src="images/mobile_1.png" alt=""></a></div>
-										<div class="footer_image"><a href="#"><img src="images/mobile_2.png" alt=""></a></div>
-									</div>
-								</div>
-								
-							</div>
+							
 
 						</div>
 					</div>
@@ -565,9 +560,9 @@
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 						<div class="ml-lg-auto cr_links">
 							<ul class="cr_list">
-								<li><a href="#">Copyright notification</a></li>
-								<li><a href="#">Terms of Use</a></li>
-								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Copyright notificación</a></li>
+								<li><a href="#">Terminos de uso</a></li>
+								<li><a href="#">Politica de privacidad</a></li>
 							</ul>
 						</div>
 					</div>

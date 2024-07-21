@@ -11,7 +11,7 @@
   --black-color-light: hsl(0, 0%, 100%);
   --black-color-lighten: hsl(0, 0%, 100%);
   --white-color: #000000;
-  --body-color: #1bd1e9(0, 0%, 0%);
+  --body-color: #000000(0, 0%, 0%);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -70,7 +70,7 @@ a {
   left: 0;
   width: 100%;
   background-color: var(--black-color);
-  box-shadow: 0 2px 16px #1bd1e9(220, 32%, 8%, .3);
+  box-shadow: 0 2px 16px #000000(220, 32%, 8%, .3);
   z-index: var(--z-fixed);
 }
 

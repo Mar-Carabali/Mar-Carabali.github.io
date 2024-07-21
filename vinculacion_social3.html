@@ -26,61 +26,187 @@
 	<!-- Header -->
 
 	<header class="header">
-			
-		<!-- Top Bar -->
-		
 
-		<!-- Header Content -->
-		<div class="header_container">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="header_content d-flex flex-row align-items-center justify-content-start">
-							<div class="logo_container">
-								<a href="#">
-									<div class="logo_text">FAH<span>SU</span></div>
-								</a>
-							</div>
-							<nav class="main_nav_contaner ml-auto">
-								<ul class="main_nav">
-									<li class="active"><a href="index.html">Inicio</a></li>
-									<li><a href="about.html">Nosotros</a></li>
-									<li><a href="courses.html">Cursos</a></li>
-									<li><a href="blog.html">Programas academicos</a></li>
-									<li><a href="contact.html">Contact</a></li>
-									<li><div class="login_button"><a href="#">Registrar o ingresar</a></div></li>
-									
+		<div class="top_bar">
+			<div class="top_bar_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+								<ul class="top_bar_contact_list">
+									<li><div class="question">Tienes preguntas?</div></li>
+									<li>
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<div>+593 0998405816</div>
+									</li>
+									<li>
+										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<div>direccionacademica@fahsu.com.ec</div>
+									</li>
 								</ul>
 								
-								<!-- Hamburger -->
+								
 
 								
-							</nav>
-
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>				
 		</div>
 
-		<!-- Header Search Panel -->
-		<div class="header_search_container">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="header_search_content d-flex flex-row align-items-center justify-content-end">
-							<form action="#" class="header_search_form">
-								<input type="search" class="search_input" placeholder="Search" required="required">
-								<button class="header_search_button d-flex flex-column align-items-center justify-content-center">
-									<i class="fa fa-search" aria-hidden="true"></i>
-								</button>
-							</form>
-						</div>
+		<nav class="nav container">
+		   <div class="nav__data">
+			<a href="#">
+				<div class="logo_text">FAH<span>SU</span></div>
+			</a>
+			  
+			  <div class="nav__toggle" id="nav-toggle">
+				 <i class="ri-menu-line nav__burger"></i>
+				 <i class="ri-close-line nav__close"></i>
+			  </div>
+		   </div>
+
+		   <!--=============== NAV MENU ===============-->
+		   <div class="nav__menu" id="nav-menu">
+			  <ul class="nav__list">
+				 <li><a href="index.html" class="nav__link">Inicio</a></li>
+
+				 <li><a href="about.html" class="nav__link">Nosotros</a></li>
+
+				 <!--=============== DROPDOWN 1 ===============-->
+				
+				 
+				 <li class="dropdown__item">
+					<div class="nav__link">
+					   Cursos <i class="ri-arrow-down-s-line dropdown__arrow"></i>
 					</div>
-				</div>
-			</div>			
-		</div>			
-	</header>
+
+					<ul class="dropdown__menu">
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							  Educacion
+						  </a>                          
+					   </li>
+
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							 Psicologia
+						  </a>
+					   </li>
+
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							 Economia
+						  </a>
+					   </li>
+
+					   <li>
+						<a href="courses.html" class="dropdown__link">
+						   Ingenieriaen sistemas
+						</a>
+					 </li>
+					 <li>
+						<a href="courses.html" class="dropdown__link">
+						    Jurisprucencia
+						</a>
+					 </li>
+					</ul>
+				 </li>
+
+				 <li class="dropdown__item">
+					<div class="nav__link">
+					   Diplomados <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+					</div>
+
+					<ul class="dropdown__menu">
+						<li>
+							<a href="courses.html" class="dropdown__link">
+							    Educación
+							</a>                          
+						 </li>
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							  Psicologia
+						  </a>                          
+					   </li>
+
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							  Economia
+						  </a>
+					   </li>
+
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							 Jurisprucencia
+						  </a>
+					   </li>
+					</ul>
+				 </li>
+
+				 <li class="dropdown__item">
+					<div class="nav__link">
+					   Programas academicos <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+					</div>
+
+					<ul class="dropdown__menu">
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							Licenciaturas
+						  </a>                          
+					   </li>
+
+					   <li>
+						  <a href="courses.html" class="dropdown__link">
+							 Ingenierias
+						  </a>
+					   </li>
+
+					   <li>
+						<a href="courses.html" class="dropdown__link">
+						   Maestrias
+						</a>
+					 </li>
+					 
+
+					   <!--=============== DROPDOWN SUBMENU ===============-->
+					   <li class="dropdown__subitem">
+						  <div class="dropdown__link">
+							  Doctorados 
+						  </div>
+
+						  <ul class="dropdown__submenu">
+							 <li>
+								<a href="courses.html" class="dropdown__sublink">
+								   Administracion Empresarial
+								</a>
+							 </li>
+	 
+							 <li>
+								<a href="courses.html" class="dropdown__sublink">
+								    Educacion
+								</a>
+							 </li>
+	 
+							 <li>
+								<a href="courses.html" class="dropdown__sublink">
+								    Jurisprucencia
+								</a>
+							 </li>
+						  </ul>
+					   </li>
+					</ul>
+				 </li>
+
+				 <!--=============== DROPDOWN 2 ===============-->
+				 
+
+				 <li><a href="contact.html" class="nav__link">Contacto</a></li>
+			  </ul>
+		   </div>
+		</nav>
+	 </header>
 
 
 	<!-- Menu -->
@@ -118,7 +244,7 @@
 							<ul>
 								<li><a href="index.html">Inicio</a></li>
 								<li><a href="courses.html">Cursos</a></li>
-								<li>Cursos detallados</li>
+								<li>Vinculación carcelaria</li>
 							</ul>
 						</div>
 					</div>
